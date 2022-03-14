@@ -6,7 +6,7 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Lato, Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace'Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -14,20 +14,29 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #FFFAFA;
+	font-family: 'Syne Mono', monospace;
+    background-color: #0A7373;
 }
-.funky-text {color: #708090;
+.funky-text {color: #CFCFCF;
 
 text-align: center;
 
 font-style: italic;
 }
+
+.header-texts {color: #B2BEBF;
+font-family: 'Syne Mono', monospace;
+text-align: left;
+
+font-style: normal
+}
+
 .resume-main {
-	background-color: #fffefc;
+	background-color: #1D8888;
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #24A4A4;
 }
 
 /* Styles for lists in the document */
