@@ -15,16 +15,16 @@ body {
 
 .resume-header {
 	font-family: 'Syne Mono', monospace;
-    background-color: #0A7373;
+    background-color: #8AA29E;
 }
-.funky-text {color: #CFCFCF;
+.funky-text {color: #F1EDEE;
 
 text-align: center;
 
 font-style: italic;
 }
 
-.header-texts {color: #B2BEBF;
+.header-texts {color: #F1EDEE;
 font-family: 'Syne Mono', monospace;
 text-align: left;
 
@@ -32,11 +32,11 @@ font-style: normal
 }
 
 .resume-main {
-	background-color: #1D8888;
+	background-color: #8AA29E;
 }
 
 .resume-aside {
-	background-color: #24A4A4;
+	background-color: #C5AABA
 }
 
 /* Styles for lists in the document */
