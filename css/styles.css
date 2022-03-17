@@ -28,7 +28,7 @@ font-style: italic;
 font-family: 'Syne Mono', monospace;
 text-align: left;
 
-font-style: normal
+font-style: normal;
 }
 
 .resume-main {
@@ -36,7 +36,8 @@ font-style: normal
 }
 
 .resume-aside {
-	background-color: #919191
+	background-color: #919191;
+	border-color: #C1C1C1 !important;
 }
 
 /* Styles for lists in the document */
@@ -58,23 +59,34 @@ font-style: normal
 }
 
 .white-texts {
-	color: #E0DDAA
+	color: #E0DDAA;
 }
 
 /* Styles for contact icons */
 
 .contact-icon {
 	height: 1em;
-	flex-basis: 1.4em;
+	flex-basis: 1.5em;
 }
 .language-level {
 	color: #E0DDAA;
 	border-color: brown!important;
 }
 .language-progress {
-	background-color: #E0DDAA !important
+	background-color: #E0DDAA !important;
 }
 
 .language-texts {
 	color: black;
+}
+
+.text-position{
+	position: relative; 
+	left: -4.2em;
+	top: 1.5em;
+}
+.text-position2{
+	position: relative; 
+	left: -1em;
+	top: 1em;
 }
