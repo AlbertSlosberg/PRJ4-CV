@@ -15,16 +15,16 @@ body {
 
 .resume-header {
 	font-family: 'Syne Mono', monospace;
-    background-color: #8AA29E;
+    background-color: #D7D392;
 }
-.funky-text {color: #F1EDEE;
+.funky-text {color: #919191;
 
 text-align: center;
 
 font-style: italic;
 }
 
-.header-texts {color: #F1EDEE;
+.header-texts {color: #919191;
 font-family: 'Syne Mono', monospace;
 text-align: left;
 
@@ -32,11 +32,11 @@ font-style: normal
 }
 
 .resume-main {
-	background-color: #8AA29E;
+	background-color: #E0DDAA;
 }
 
 .resume-aside {
-	background-color: #C5AABA
+	background-color: #919191
 }
 
 /* Styles for lists in the document */
@@ -50,11 +50,15 @@ font-style: normal
 }
 
 .biography-details li::before {
-	color: #EE7623;
+	color: brown;
 }
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
+}
+
+.white-texts {
+	color: #E0DDAA
 }
 
 /* Styles for contact icons */
@@ -62,4 +66,15 @@ font-style: normal
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+.language-level {
+	color: #E0DDAA;
+	border-color: brown!important;
+}
+.language-progress {
+	background-color: #E0DDAA !important
+}
+
+.language-texts {
+	color: black;
 }
